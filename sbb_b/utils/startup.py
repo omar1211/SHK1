@@ -236,7 +236,7 @@ async def verifyLoggerGroup():
             LOGS.error("هنالك خطا ما للتعرف على فار كروب الحفظ\n" + str(e))
     else:
         descript = "⪼ هذه هي مجموعه الحفظ الخاصه بك لا تحذفها ابدا  𓆰."
-        photobt = await sbb_b.upload_file(file="razan/pic/omar2.jpeg")
+        photobt = await sbb_b.upload_file(file="razan/pic/Omar2.jpeg")
         _, groupid = await create_supergroup(
             "جروب اشعارات القرش", sbb_b, Config.TG_BOT_USERNAME, descript, photobt
         )
@@ -261,7 +261,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على كروب التخزين\n" + str(e))
     else:
         descript = "⎊ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص"
-        photobt = await sbb_b.upload_file(file="razan/pic/omar1.jpeg")
+        photobt = await sbb_b.upload_file(file="razan/pic/Omar1.jpeg")
         _, groupid = await create_supergroup(
             "جروب تخزين القرش", sbb_b, Config.TG_BOT_USERNAME, descript, photobt
         )
