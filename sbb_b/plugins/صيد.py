@@ -1,4 +1,4 @@
-# by: t.me/Dar4k  ~ t.me/R0R77
+# by: t.me/L_H_V  ~ t.me/T_3_A
 
 import asyncio
 import random
@@ -105,7 +105,7 @@ def gen_user(choice):
 async def _(event):
     await event.edit(
         """
-أوامر الصيد الخاصة بسورس جمثون : 
+أوامر الصيد الخاصة بسورس القرش : 
 
 ٴ— — — — — — — — — —
 
