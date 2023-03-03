@@ -561,7 +561,7 @@ async def inline_handler(event):
                 Button.url("قناة السورس", "t.me/L_H_V"),
                 Button.url(
                     "المطور",
-                    "t.me/PPF22",
+                    "t.me/T_3_A",
                 ),
             )
         ]
