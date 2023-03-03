@@ -93,7 +93,7 @@ async def startupmessage():
         if BOTLOG:
             Config.JMTHONLOGO = await sbb_b.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b29c81c4e10cb4f7345d7.jpg",
+                "https://telegra.ph/file/a0ee746ab935bf4a899a5.jpg",
                 caption="⎊ بــوت القرش يـعـمـل بـنـجـاح  **\n\n**⎊ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**⎊ قـنـاة سـورس القرش @L_H_V",
                 buttons=[(Button.url("𓏺 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊 . 🕷 ˼", "https://t.me/L_H_V"),)],
             )
