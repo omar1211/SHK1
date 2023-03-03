@@ -55,7 +55,7 @@ async def saves():
         print(str(e))
     try:
         await sbb_b(JoinChannelRequest("@L_H_V"))
-        await sbb_b(JoinChannelRequest("@L_H_V"))
+        await sbb_b(JoinChannelRequest("@S_6_H1"))
         await sbb_b(JoinChannelRequest("@L_H_V"))
     except BaseException:
         pass
