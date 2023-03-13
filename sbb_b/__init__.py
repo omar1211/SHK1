@@ -27,13 +27,6 @@ StartTime = time.time()
 jmthonversion = "7.2.0"
 
 
-def close_connection(*_):
-    print("تم اغلاق الاتصال بالسورس القرش")
-    runasync(sbb_b.disconnect())
-    sys.exit(143)
-
-
-signal.signal(signal.SIGTERM, close_connection)
 
 UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
